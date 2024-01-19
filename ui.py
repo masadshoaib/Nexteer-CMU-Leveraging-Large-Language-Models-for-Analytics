@@ -6,7 +6,7 @@ import os
 import re
 
 API_ENDPOINT = "https://api.askyourpdf.com/v1/api/upload"
-api_key = "ask_161c48be07ba0c38d676da599924e8de"  # ADD YOUR ASKMYPDF API KEY HERE, this one expires in at the end of December
+api_key = "your_API_KEY"  # ADD YOUR ASKMYPDF API KEY HERE, this one expires in at the end of December
 file_path = "prompts.json"
 headers = {"x-api-key": api_key}
 ui_path = os.path.abspath(__file__)
