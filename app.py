@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_KEY = "ask_161c48be07ba0c38d676da599924e8de"
+API_KEY = "your_API_KEY"
 API_ENDPOINT = "https://api.askyourpdf.com/v1/api/upload"
 
 def upload_pdf_to_api(file):
